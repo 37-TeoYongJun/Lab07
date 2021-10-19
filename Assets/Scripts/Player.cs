@@ -34,7 +34,7 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "Obstacle")
         {
             Destroy(gameObject);
-            SceneManager.LoadScene("GameOver");
+            SceneManager.LoadScene("LoseScene");
         }
     }
 }
